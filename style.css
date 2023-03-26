@@ -1,0 +1,54 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.navbar{
+	border: none;
+	background-color: black;
+	color: #61122F;
+}
+
+body{
+	background-color: #61122F;
+	color: white;
+}
+
+.glyphicon{
+	font-size: 30px;
+	color:#b7c221; 
+}
+
+
+
+.container{
+	width: 90%;
+}
+
+.text-center{
+	font-size: 30px;
+}
+
+h2{
+	text-align: center;
+}
+
+#myNavbar ul li a {
+	color: #b7c221;
+}
+
+.navbar-brand{
+	font-size: 20px;	
+}
+
+#chicken,#beef,#sushi{
+	border:2px solid black;
+	background-color: grey;
+}
+
+@media screen and (min-width: 576px){
+	.go{
+		display: none;
+	}
+}
